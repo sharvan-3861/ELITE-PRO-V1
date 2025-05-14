@@ -17,7 +17,7 @@ global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
 // Settings: true=enable false=disable
 global.autoRecording = process.env.AUTO_RECORDING === 'true';
-global.autoTyping = process.env.AUTO_TYPING === 'false';
+global.autoTyping = process.env.AUTO_TYPING === 'true';
 global.autorecordtype = process.env.AUTO_RECORD_TYPE === 'true';
 global.autoread = process.env.AUTO_READ === 'false';
 global.autobio = process.env.AUTO_BIO !== 'false'; // default true
